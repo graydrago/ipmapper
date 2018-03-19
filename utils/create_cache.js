@@ -4,8 +4,8 @@
  * Because I have limitations on amount of requests to freegeoip.net, so I have
  * to prepare some kind of cache.
  *
- * It's bad idea to save cache in source control, but later I can without
- * headache run this project. Don't do that in the real life.
+ * It's bad idea to save cache in source control, but later I can run this
+ * project without headache. Don't do that in the real life.
  */
 let fs = require("fs");
 let https = require("https");
